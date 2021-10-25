@@ -1,0 +1,14 @@
+/**
+*
+* Multiple Root Elements
+*
+**/
+
+<template>
+  <div>
+    <p>Hello, World!</p>
+  </div>
+  <div>
+    <p>Hello, again!</p>
+  </div>
+</template>
