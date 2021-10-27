@@ -15,5 +15,10 @@
 </head>
 <body>
   <h1>Hello Vue :)</h1> // Page title.
+  
+  <div id="app">
+    <p>{{ title }} - {{ test_variable_1 }} - {{ test_variable_2 }}</p> 
+  </div>
+  
 </body>
 </html>
