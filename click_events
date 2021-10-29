@@ -1,0 +1,25 @@
+/**
+*
+* Buttons the update values in app.js
+*
+**/
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> // The <meta> tag defines metadata about an HTML document. UTF-8 is a character set.
+  <meta name="viewport" content=""width=device-width, initial-scale=1.0"> // The viewport is the user's visible area of a web page.
+  <title>Learning Vue</title> // Tab title.
+</head>
+<body>
+  <h1>Hello Vue :)</h1> // Page title.
+  
+  <div id="app">
+    <p>{{ title }} - {{ test_variable_1 }} - {{ test_variable_2 }}</p> 
+  </div>
+  
+ <button v-on:click="test_variable_2++">Increase Value 2</button>
+ <button v-on:click="test_variable_2--">Decrease Value 2</button>
+ <div @click="title = 'new value ' ">Change title</div>
+  
+</body>
+</html>
