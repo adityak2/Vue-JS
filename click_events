@@ -15,11 +15,11 @@
   
   <div id="app">
     <p>{{ title }} - {{ test_variable_1 }} - {{ test_variable_2 }}</p> 
+    
+    <button v-on:click="test_variable_2++">Increase Value 2</button>
+    <button v-on:click="test_variable_2--">Decrease Value 2</button>
+    <div @click="title = 'new value ' ">Change title</div>
   </div>
-  
- <button v-on:click="test_variable_2++">Increase Value 2</button>
- <button v-on:click="test_variable_2--">Decrease Value 2</button>
- <div @click="title = 'new value ' ">Change title</div>
   
 </body>
 </html>
