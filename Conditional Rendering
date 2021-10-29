@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Learning Vue</title>
+  <script src="https://unpkg.com/vue@3.0.2"></script>
+</head>
+<body>
+  <h1>Hello Vue :)</h1> 
+  
+  <div id="app">
+    <div v-if="show values"> // Conditional statement
+     <p>{{ title }} - {{ test_variable_1 }} - {{ test_variable_2 }}</p>
+    </div>
+   
+   <button @click="toggle show values">
+     <span>hide values</span>
+   </button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
