@@ -11,7 +11,12 @@ const app = Vue.createApp({
             test_variable_1: 'test1',
             test_variable_2: 'test2'
         }
-    }
+    },
+    methods : {
+        changeTitle() {
+            this.title = "new value"
+        }
+    }    
 })
 
 app.mount('#app')
