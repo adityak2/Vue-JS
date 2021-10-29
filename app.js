@@ -13,7 +13,7 @@ const app = Vue.createApp({
         }
     },
     methods : {
-        changeTitle() {
+        changeTitle() { // Passing an argument and then subsequently assigning it to this.tile would change value of the title
             this.title = "new value"
         }
     }    
