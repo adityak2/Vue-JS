@@ -1,0 +1,10 @@
+/**
+*
+* Attribute Binding
+*
+**/
+
+<!-- attribute binding -->
+<a href=" link ">insert text here</a>
+<a v-bind:href="url">insert text here</a> // url is variable stored in app.js
+<a :href="url">insert text here</a> // compact version
