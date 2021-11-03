@@ -1,0 +1,15 @@
+/**
+*
+* Outputting list using v-for. Refer to Sample_Code
+*
+**/
+
+<div v-if="showBooks">
+  <ul>
+    <li v-for="books in books">
+      <h3>{{ book.title }}</h3>
+      <p>{{ book.author }}</p>
+    </li>
+  </ul>
+</div>
+    
