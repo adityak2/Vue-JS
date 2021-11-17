@@ -1,0 +1,65 @@
+Microsoft Windows [Version 10.0.19042.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin> vue create reaction-timer
+
+
+Vue CLI v4.5.15
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Choose Vue version, Babel
+? Choose a version of Vue.js that you want to start the project with 3.x
+? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+? Save this as a preset for future projects? No
+
+
+Vue CLI v4.5.15
+✨  Creating project in C:\Users\admin\reaction-timer.
+⚙️  Installing CLI plugins. This might take a while...
+
+
+added 1232 packages, and audited 1233 packages in 30s
+
+80 packages are looking for funding
+  run `npm fund` for details
+
+27 vulnerabilities (17 moderate, 10 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice
+npm notice New patch version of npm available! 8.1.0 -> 8.1.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.1.3
+npm notice Run npm install -g npm@8.1.3 to update!
+npm notice
+🚀  Invoking generators...
+📦  Installing additional dependencies...
+
+
+added 21 packages, and audited 1254 packages in 4s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+27 vulnerabilities (17 moderate, 10 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+⚓  Running completion hooks...
+
+📄  Generating README.md...
+
+🎉  Successfully created project reaction-timer.
+👉  Get started with the following commands:
+
+ $ cd reaction-timer
+ $ npm run serve
