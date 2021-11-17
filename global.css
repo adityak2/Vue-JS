@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+p {
+  font-style: italic;
+}
+
+---------------------------------
+
+/**
+*
+* main.js implementing global.css
+*
+**/
+
+import { createApp } from 'vue'
+import App from './App.vue'
+import './assets/global.css'
+
+createApp.mount('#app')
